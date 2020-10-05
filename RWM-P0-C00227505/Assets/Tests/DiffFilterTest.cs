@@ -9,7 +9,7 @@ namespace Tests
     public class DiffFilterTest
     {
         [Test]
-        public void CubeFilterSimple()
+        public void DiffFilterSimple()
         {
             int[] input = { 4, 2, 8, 3, 9, 4, 10, 5, 11, 6 };
             int[] output = DiffFilter.Diff(input);
